@@ -9,4 +9,12 @@ def countdown(int)
     return "happy new year !".upcase
 end 
 
-def countdown_with_sleep()
+def countdown_with_sleep(num)
+  num = 0 
+  while num > 0 
+    puts "#{num} SECOND(S)!"
+    int -= 1
+  end 
+    return "happy new year!".upcase
+end 
+
