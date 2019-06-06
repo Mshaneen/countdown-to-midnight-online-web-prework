@@ -4,7 +4,7 @@ def countdown(int)
   int = 1 
   while int > 1 
     puts "#{int} SECOND(S)!"
-    int -= 1 
-end 
+    int -= 1
+  end 
   "happy new year !".upcase
-end
+end 
